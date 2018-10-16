@@ -1,0 +1,3 @@
+ID	Text	Pronoun	Pronoun-offset	A	A-offset	A-coref	B	B-offset	B-coref	URL
+validation-1	She refers to A and not B.	She	0	A	14	TRUE	B	24	FALSE	http://en.wikipedia/wiki/Fake_page
+validation-2	He does not refer to A but B.	He	0	A	21	FALSE	B	27	TRUE	http://en.wikipedia/wiki/Fake_page
