@@ -65,5 +65,21 @@ Task Setting      | M    | F    |  B     | O
 
 where the metrics are F1 score on **M**asculine and **F**eminine examples, **O**verall, and a **B**ias factor calculated as **M** / **F**.
 
+## GAP Scorer
+
+To score your own output against the gold data, use gap_scorer.py
+
+Your output should contain three columns: ID (the example id), A-Coref
+(True/False, whether or not name A corefers with the ID), and B-Coref (same for
+name B).
+
+To run:
+
+$ MY_SYSTEM_OUTPUT=/path/to/my/awesome/output/with/three/columns/dev.tsv
+
+$ GOLD=/path/to/gap/gold/gap-development.tsv
+
+$ python gap_scorer.py --gold_tsv="${GOLD}" --system_tsv="${MY_SYSTEM_OUTPUT}"
+
 ## Contact
 To contact us, please use gap-coreference@google.com
