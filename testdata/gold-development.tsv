@@ -1,0 +1,5 @@
+ID	Text	Pronoun	Pronoun-offset	A	A-offset	A-coref	B	B-offset	B-coref	URL
+development-1	A is not her name. B is.	her	9	A	0	FALSE	B	19	TRUE	http://en.wikipedia/wiki/Fake_page
+development-2	Both A and B are incorrect names for him.	him	37	A	5	FALSE	B	11,12	FALSE	http://en.wikipedia/wiki/Fake_page
+development-3	He is called A but never B.	He	0	A	13	TRUE	B	25	FALSE	http://en.wikipedia/wiki/Fake_page
+development-4	A said B contacted her.	her	19	A	0	TRUE	B	7	FALSE	http://en.wikipedia/wiki/Fake_page
